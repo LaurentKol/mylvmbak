@@ -1,0 +1,8 @@
+/var/log/mylvmbak/*.log {
+    missingok
+    compress
+    rotate 24
+    monthly
+    #size 1M
+}
+
